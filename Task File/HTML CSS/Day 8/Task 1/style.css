@@ -1,0 +1,24 @@
+label{
+    font-weight: bold;
+    display: block;
+    
+}
+
+.container-fluid{
+    margin:20px;
+    border: solid 1px;
+}
+.full-content{
+    padding: 10px;
+    padding-bottom: 15px;
+    gap:10px;
+}
+#firstname{
+  display: flex;
+  flex-wrap:wrap;
+}
+#lastname{
+display: flex;
+flex-wrap: wrap;
+
+}

@@ -1,0 +1,68 @@
+topics:
+
+overflow
+dropbox
+measurements
+font icons
+media queries
+parent inherit
+
+parent inherit:
+
+inherit => a behaviour trsnfered from the parent to child
+css inherit=> the property of the parent can be transfered to the child element
+
+inherit keyword=> we can use this for giving values of the properties 
+as per the parent element.
+property: inherit;
+
+overflow:
+if the content exceeds the container or box elemnt then we can use 
+overflow css property
+
+types: oveflow property considers width.
+
+visible=> default.
+it doesnt consider height.
+whatever the content is it shows all.
+if the height is less, it overflows the content.
+
+hidden=>
+it considers the height.
+it doesnt shows the content whoch exceeds the container.
+if the container height is less, it hodes the content.
+
+scroll=>
+if the height is less than the content, it creates a scroll.
+bar to see all the contents inside the container.
+
+auto=> 
+it is the combination of all the three.
+if the content is high it is it creates a scrollbar
+if the comtent is less it is behave like a visibile
+it never exceeds the container.
+
+dispaly : none=> the content is gone if we use this property
+it odesnt even takes spaces
+
+visibility : hidden=> the content is gone if we use this.
+but it takes spaces.
+
+dropbox:
+we can use select and option tag for creating a dropbox.
+and we can use styling to create a dropdown.
+
+measurements:
+px, %,cm,em, ex, in, mm,pc,pt, rem
+ in>cm>>pc>rem>em>ch>mm>px>pt>%  as per size
+ usage => widely used =>px and % 
+
+ font icons:
+
+copy cdn link from fontawesome page and link it in the link taginside head.
+then go for font icon page and search for the particular icon and copy paste it.
+
+then we can apply css properties to it.
+
+Media queries:
+to change the css properties of the website based on the size of the document.
